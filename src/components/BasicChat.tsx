@@ -8,7 +8,7 @@ function getSimpleTimestamp() {
   const hours = String(hour % 12).padStart(2, '0');
   const minutes = String(now.getMinutes()).padStart(2, '0');
   const seconds = String(now.getSeconds()).padStart(2, '0');
-  const amPM = hour < 12 ? 'am' : (hour < 24 ? 'pm' : 'am');
+  const amPM = hour >= 12 && hour < 24 ? 'pm': 'am';
   return `${hours}:${minutes}:${seconds}${amPM}`;
 }
 
