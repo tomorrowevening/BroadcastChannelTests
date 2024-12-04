@@ -1,0 +1,23 @@
+#SharedInteractions {
+  overflow: hidden;
+}
+
+#SharedInteractions input {
+  background-color: #000;
+  pointer-events: visible;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+#SharedInteractions .dot {
+  background: white;
+  border-radius: 100%;
+  pointer-events: none;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,37 @@
+#BasicChat {
+  font-family: monospace;
+  font-size: 12px;
+}
+
+#BasicChat input {
+  background-color: #222;
+  border: 1px solid #333;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 50px;
+}
+
+#BasicChat button {
+  background-color: #333;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+}
+
+#BasicChat span {
+  background-color: #333;
+  padding: 3px;
+}
+
+#BasicChat div {
+  color: #CCC;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 20px;
+  width: calc(100% - 20px);
+  overflow-y: auto;
+}
